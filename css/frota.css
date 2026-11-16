@@ -221,8 +221,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem;
-
+    gap: 1.5rem;
     max-width: 100%;
     height: 50rem;
     padding: 0;
@@ -230,7 +229,7 @@ h1 {
 }
 
 .card-veiculos {
-    width: 24%;
+    width: 23%;
     min-height: 42em;
     text-align: left;
     border-radius: 1rem;
