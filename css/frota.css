@@ -130,7 +130,7 @@ h1 {
 }
 
 .conteudo-principal-container {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,14 +163,13 @@ h1 {
 
 .cards-nossa-frota>.container {
     width: fit-content;
-
+    min-height: 32em;
     display: flex;
     flex-basis: 100%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2.3rem;
-
     margin: 0 auto 1rem;
 }
 
@@ -178,14 +177,9 @@ h1 {
     box-sizing: border-box;
     box-shadow: 1px 1px 12px -7px #3a3939;
     border-radius: 1rem;
-
-    max-width: 100%;
-    min-width: 20rem;
-    width: 28rem;
-    height: 20rem;
-
+    width: 20%;
+    min-height: 25rem;
     padding-top: 1.5rem;
-
     background-color: var(--fundo-secoes);
 }
 
@@ -214,8 +208,9 @@ h1 {
 
 .section-cards-veiculos {
     min-width: 100%;
-    padding: 0;
-    margin: 10rem 0 10rem;
+    min-height: 50em;
+    padding: 0 0 10em;
+    margin: 0rem 0 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,16 +230,11 @@ h1 {
 }
 
 .card-veiculos {
-    max-width: 100%;
-    min-width: 20rem;
-    width: 28rem;
-    height: auto;
-
+    width: 24%;
+    min-height: 42em;
     text-align: left;
-
     border-radius: 1rem;
     border-top: 4px solid var(--hover-botoes);
-
     padding: 3rem 2rem 3rem;
     background-color: var(--fundo-secoes);
     box-shadow: 1px 2px 12px -7px #232222;
@@ -341,13 +331,13 @@ ul.list-card li {
         margin: 3rem auto 0;
     }
 
-    .card-veiculos {
+        .card-veiculos {
         max-width: 100%;
         min-width: 20rem;
         width: 100%;
         height: auto;
-
-        text-align: center;
+        min-height: fit-content;
+        text-align: center !important;
     }
 
 }
